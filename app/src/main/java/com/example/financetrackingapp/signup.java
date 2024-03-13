@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class signup extends AppCompatActivity {
 
@@ -17,5 +18,6 @@ public class signup extends AppCompatActivity {
     public void m2(View view) {
         Intent intent = new Intent(this, login.class);
         startActivity(intent);
+        Toast.makeText(this, "Signup succesfully", Toast.LENGTH_LONG).show();
     }
 }

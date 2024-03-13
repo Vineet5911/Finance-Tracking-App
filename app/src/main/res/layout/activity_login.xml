@@ -69,6 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:id="@+id/uname"
                 android:hint="Enter username"
                 android:textColor="@color/black"
                 android:drawableEnd="@drawable/done" />
@@ -89,6 +90,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:hint="Enter password"
+                android:id="@+id/pass"
                 android:textColor="@color/black"
                 android:drawableEnd="@drawable/pass" />
 
@@ -101,6 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Login"
+                android:onClick="m3"
                 android:backgroundTint="@color/blue"
                 android:layout_gravity="center_horizontal">
             </Button>
